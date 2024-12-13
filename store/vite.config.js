@@ -1,0 +1,23 @@
+import path from 'path'
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import frappeui from 'frappe-ui/vite'
+import commonjs from 'vite-plugin-commonjs';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [frappeui(), vue(),commonjs()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
+  build: {
+    outDir: `../${path.basename(path.resolve('..'))}/public/store`,
+    emptyOutDir: true,
+    target: 'es2015',
+  },
+  optimizeDeps: {
+    include: ['frappe-ui > feather-icons', 'showdown', 'engine.io-client','dayjs/plugin/advancedFormat'],
+  },
+})
