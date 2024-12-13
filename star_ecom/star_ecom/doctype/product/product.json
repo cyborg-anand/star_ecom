@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-12-13 17:38:52.433515",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "price",
+  "preview_image",
+  "column_break_llig",
+  "currency",
+  "section_break_sgwy",
+  "images",
+  "section_break_czkw",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price",
+   "options": "currency"
+  },
+  {
+   "fieldname": "column_break_llig",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "section_break_czkw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Markdown Editor",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_sgwy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "images",
+   "fieldtype": "Table",
+   "label": "images",
+   "options": "Product Image"
+  },
+  {
+   "fieldname": "preview_image",
+   "fieldtype": "Attach Image",
+   "label": "Preview Image",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-13 18:43:29.268955",
+ "modified_by": "Administrator",
+ "module": "Star Ecom",
+ "name": "Product",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
