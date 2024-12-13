@@ -1,11 +1,16 @@
 <template>
-    <a href="#" class="shadow-md rounded-sm p-4 space-y-2 flex flex-col items-start justify-between" >
+    <router-link :to="{
+      name:'ProductDetailsPage',
+      params: {
+        name:product.name
+      }
+    }" class="shadow-md rounded-sm p-4 space-y-2 flex flex-col items-start justify-between" >
       <div>
       <img :src="product.preview_image" alt="Product Preview Image">
       <p class="text-base text-gray-800 font-medium mt-2" >{{ product.name }}</p>
     </div>
       <p class="text-xl font-bold text-gray-900" >{{formatCurrency(product.price,product.currency)}}</p>
-     </a>
+  </router-link>
 </template>
 <script setup>
 import { formatCurrency } from "@/utils";

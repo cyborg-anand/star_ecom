@@ -16,6 +16,11 @@ const routes = [
     component: () => import('@/pages/Products.vue'),
   },
   {
+    path: '/products/:name',
+    name: 'ProductDetailsPage',
+    component: () => import('@/pages/ProductDetails.vue'),
+  },
+  {
     path: '/checkout',
     name: 'CheckoutPage',
     meta:{
