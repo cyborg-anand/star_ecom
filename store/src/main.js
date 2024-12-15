@@ -19,11 +19,20 @@ import {
 
 
 let app = createApp(App)
+let cartData = localStorage.getItem("cart")
+if(!cartData){
+  const cartJSON = JSON.stringify({
+    items:[]
+  })
+  localStorage.setItem("cart",cartJSON)
+  cartData= {
+    items:[]
+  }
+} else {
+  cartData = JSON.parse(cartData)
+}
 
-const cart = reactive({
-  items:[],
-  secret: "Hello, this is not supposed to be read"
-});
+const cart = reactive(cartData);
 app.provide("cart",cart);
 
 setConfig('resourceFetcher', frappeRequest)

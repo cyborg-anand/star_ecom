@@ -23,6 +23,7 @@ const routes = [
   {
     path: '/checkout',
     name: 'CheckoutPage',
+    component:() =>import('@/pages/Checkout.vue'),
     meta:{
       requiresLogin:true
     }

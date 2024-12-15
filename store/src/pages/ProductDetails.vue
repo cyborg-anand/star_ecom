@@ -22,6 +22,7 @@
         <!-- Current Preview Image-->
         <img class="sm:max-w-lg" :src="currentPreviewImageURL" >
        </div>
+       <div class="prose prose-sm" v-html="md.render(productDoc.description)" ></div>
        <div class="space-y-3">
         <p class="text-3xl font-bold text-gray-900">
           {{ formatCurrency(productDoc.price,productDoc.currency) }}
@@ -39,6 +40,7 @@
 </template>
   
 <script setup>
+import markdownit from 'markdown-it'
 import { useToast } from "vue-toastification";
 import { computed,watch,ref,inject } from "vue";
 import { formatCurrency } from "@/utils";
@@ -49,7 +51,7 @@ import { Button, createDocumentResource, FeatherIcon } from "frappe-ui";
    const toast = useToast();
  
    const cart =inject("cart")
-
+   const md = markdownit()
    const currentPreviewImageURL =ref(null);
 
    const productResource =createDocumentResource({
@@ -73,7 +75,8 @@ import { Button, createDocumentResource, FeatherIcon } from "frappe-ui";
    function addProductToCart(){
     const productName= route.params.name;
     cart.items.push({
-        name:productName
+        product: productName,
+        qty:1
     })
     toast.success("Item added to cart!")
    }

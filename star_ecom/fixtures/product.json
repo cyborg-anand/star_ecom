@@ -1,0 +1,62 @@
+[
+ {
+  "currency": "USD",
+  "description": "* Solimo presents this set of five lightweight notebooks. These versatile books are suitable for use in the classroom or office, meeting a range of daily needs.\n* Each notebook contains 100 ruled pages of 70 gsm.\n* The paper is smooth and easy to write on using any writing instrument, including fountain pens, without ink penetration.\n* The cover is made from plastic.\n* The books are spiral-bound, which allow you to open them flat on any surface.\n* These aesthetically pleasing notebooks come in vibrant colours.\n* Dimensions: A5 size; No. of pages: 100\n* Package contents: Pack of 5 notebooks",
+  "docstatus": 0,
+  "doctype": "Product",
+  "images": [
+   {
+    "image_url": "https://m.media-amazon.com/images/I/912+mfE2XBL._SL1500_.jpg",
+    "parent": "Notebooks, Spiral, Lightweight, Vibrant Colours (A5, 100 Pages, 70 GSM, Set of 5)",
+    "parentfield": "images",
+    "parenttype": "Product"
+   },
+   {
+    "image_url": "https://m.media-amazon.com/images/I/71ts-10g8lL._SL1500_.jpg",
+    "parent": "Notebooks, Spiral, Lightweight, Vibrant Colours (A5, 100 Pages, 70 GSM, Set of 5)",
+    "parentfield": "images",
+    "parenttype": "Product"
+   },
+   {
+    "image_url": "https://m.media-amazon.com/images/I/91Lw+Krch6L._SL1500_.jpg",
+    "parent": "Notebooks, Spiral, Lightweight, Vibrant Colours (A5, 100 Pages, 70 GSM, Set of 5)",
+    "parentfield": "images",
+    "parenttype": "Product"
+   }
+  ],
+  "modified": "2024-12-13 21:19:33.829718",
+  "name": "Notebooks, Spiral, Lightweight, Vibrant Colours (A5, 100 Pages, 70 GSM, Set of 5)",
+  "preview_image": "https://m.media-amazon.com/images/I/912+mfE2XBL._AC_UL320_.jpg",
+  "price": 3.99
+ },
+ {
+  "currency": "INR",
+  "description": "* It is a diary style desk organizer,memo note pad with a closed size of 7.5 X 4.5 inch appox\n* It has 3 sizes of sticky note pad & 1 pad of loose sheets with clip holder and a pen\n* No. of sheets in sticky note pad of yellow(appox size 4 x 3 inch ) ,pink(appox size 3 x 2 inch ) are 20 approx\n* No. of small strips / flags (size 2 x .5 inch ) are 20 approx.Each color and no.of loose sheets( size 7 x 4 inch ) are 50 apprx and the colored small stripes/flags   will be arranged randomly\n* Colored stripes and pen design is indicative and might show slight variations",
+  "docstatus": 0,
+  "doctype": "Product",
+  "images": [
+   {
+    "image_url": "https://m.media-amazon.com/images/I/41oLhpKArFL.jpg",
+    "parent": "Note Pad/Memo Book with Sticky Notes & Clip Holder with Pen",
+    "parentfield": "images",
+    "parenttype": "Product"
+   },
+   {
+    "image_url": "https://m.media-amazon.com/images/I/51rFOgX5SWL.jpg",
+    "parent": "Note Pad/Memo Book with Sticky Notes & Clip Holder with Pen",
+    "parentfield": "images",
+    "parenttype": "Product"
+   },
+   {
+    "image_url": "https://m.media-amazon.com/images/I/310MT6gXJJL.jpg",
+    "parent": "Note Pad/Memo Book with Sticky Notes & Clip Holder with Pen",
+    "parentfield": "images",
+    "parenttype": "Product"
+   }
+  ],
+  "modified": "2024-12-13 21:15:59.994010",
+  "name": "Note Pad/Memo Book with Sticky Notes & Clip Holder with Pen",
+  "preview_image": "https://m.media-amazon.com/images/I/51rFOgX5SWL.jpg",
+  "price": 199.0
+ }
+]
